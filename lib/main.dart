@@ -1,14 +1,12 @@
-import 'package:assets_audio_player/assets_audio_player.dart';
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {
   void playSound(int soundNumber) {
-    final player = AssetsAudioPlayer();
-    player.open(
-      Audio("assets/note$soundNumber.wav"),
-    );
+    final player = AudioPlayer();
+    player.play("assets/note$soundNumber.wav");
   }
 
   Expanded buildKey(Color color, int soundNumber) {
