@@ -16,17 +16,18 @@ class XylophonePage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         body: SafeArea(
           child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                buildKey(color: Colors.red, keyNumber: 1),
-                buildKey(color: Colors.orange, keyNumber: 2),
-                buildKey(color: Colors.yellow, keyNumber: 3),
-                buildKey(color: Colors.green, keyNumber: 4),
-                buildKey(color: Colors.blue.shade300, keyNumber: 5),
-                buildKey(color: Colors.blue.shade700, keyNumber: 6),
-                buildKey(color: Colors.purple, keyNumber: 7),
-              ]),
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              buildKey(color: Colors.red, keyNumber: 1),
+              buildKey(color: Colors.orange, keyNumber: 2),
+              buildKey(color: Colors.yellow, keyNumber: 3),
+              buildKey(color: Colors.green, keyNumber: 4),
+              buildKey(color: Colors.blue.shade300, keyNumber: 5),
+              buildKey(color: Colors.blue.shade700, keyNumber: 6),
+              buildKey(color: Colors.purple, keyNumber: 7),
+            ],
+          ),
         ),
       );
 
@@ -39,4 +40,3 @@ class XylophonePage extends StatelessWidget {
         ),
       );
 }
-
