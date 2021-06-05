@@ -1,4 +1,4 @@
 # xylophone
 A new Flutter project.
 
-<img src=images/ss.png width="340" height="570">
+<img src=images/ss.png width="320" height="570">
