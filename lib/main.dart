@@ -11,7 +11,7 @@ class XylophoneApp extends StatelessWidget {
 }
 
 class XylophonePage extends StatelessWidget {
-  final player = AudioCache();
+  // final player = AudioCache();
   @override
   Widget build(BuildContext context) => Scaffold(
         body: SafeArea(
@@ -35,7 +35,7 @@ class XylophonePage extends StatelessWidget {
         child: MaterialButton(
           color: color,
           onPressed: () {
-            player.play("note$keyNumber.wav");
+            // player.play("note$keyNumber.wav");
           },
         ),
       );
