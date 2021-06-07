@@ -21,6 +21,7 @@ class XylophonePage extends StatelessWidget {
             children: [
               buildKey(color: Colors.red, keyNumber: 1),
               buildKey(color: Colors.orange, keyNumber: 2),
+              
               buildKey(color: Colors.yellow, keyNumber: 3),
               buildKey(color: Colors.green, keyNumber: 4),
               buildKey(color: Colors.blue.shade300, keyNumber: 5),
